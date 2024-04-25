@@ -1,0 +1,48 @@
+/* dark-theme.css */
+body {
+  background-color: #161616;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #444;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px; /* Set the width of the container */
+}
+
+input[type="text"],
+input[type="password"],
+button {
+  background-color: #292929;
+  color: #fff;
+  border: 1px solid #777;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.dashboard-info {
+  margin-top: 20px;
+}
+
+button.custom-button {
+  background-color: #777;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  font-family: 'Arial', sans-serif;
+}
